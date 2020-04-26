@@ -120,4 +120,4 @@ A flexible command line tool for instantly deploying user interfaces for simple 
 
 ## Contact
 
-Richard Stelling ((@rjstelling)[https://twitter.com/rjstelling])
+Richard Stelling ([@rjstelling](https://twitter.com/rjstelling))
