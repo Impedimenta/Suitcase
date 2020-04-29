@@ -35,7 +35,7 @@ See the [full documentation](./Utility.md).
 
 ### Export as a `.command`
 
-Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch or share.
+Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch the Suitcase or share the file (it's just plain text).
 
 ![Export Command](./Resources/export-screenshot.png)
 
