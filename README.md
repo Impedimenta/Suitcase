@@ -2,6 +2,8 @@
 
 A flexible command line tool for instantly deploying user interfaces for simple commands and scripts. 
 
+[Download the latest release.](https://github.com/Impedimenta/Suitcase/releases/tag/1.0.0-alpha)
+
 ## Command-Line Utility
 
 ### Usage
