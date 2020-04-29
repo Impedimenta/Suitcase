@@ -14,7 +14,7 @@ Because of its SwiftUI underpinnings Suitcase supports things like [Dark Mode](h
 
 ### Powerful 
 
-It power and flexibility come form the tried and trusted UNIX command line. Anything you can do in Terminal you can do in Suitcase, but with a UI and export the command as a `.command` file, to check in with a project or [share with the world](https://github.com/Impedimenta/Suitcase-Bazaar).
+Its power and flexibility come form the tried and trusted UNIX command line. Anything you can do in Terminal you can do in Suitcase, but with a UI and export the command as a `.command` file, to check in with a project or [share with the world](https://github.com/Impedimenta/Suitcase-Bazaar).
 
 ## Command-Line Utility
 
