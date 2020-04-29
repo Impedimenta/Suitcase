@@ -2,6 +2,20 @@
 
 A flexible command line tool for instantly deploying user interfaces for simple commands and scripts. 
 
+## tl;dr
+
+Suitcase is a command line tool that can be *"programmed"* to display a [SwiftUI](https://developer.apple.com/xcode/swiftui/) interface that can trigger commands and scripts. 
+
+Think of it as similar to [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) but for macOS and driven by the command line.
+
+### First Class macOS Citizen 
+
+Because of its SwiftUI underpinnings Suitcase supports things like [Dark Mode](https://support.apple.com/en-gb/HT208976) out of the box. 
+
+### Powerful 
+
+It power and flexibility come form the tried and trusted UNIX command line. Anything you can do in Terminal you can do in Suitcase, but with a UI and export the command as a `.command` file, check in with a project or [share with the world](https://github.com/Impedimenta/Suitcase-Bazaar).
+
 ## Command-Line Utility
 
 ### Usage
