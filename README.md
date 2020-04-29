@@ -35,7 +35,9 @@ See the [full documentation](./Utility.md).
 
 ### Export as a `.command`
 
-TO-DO 
+Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch or share.
+
+![Export Command](./Resources/export-screenshot.png)
 
 ### Simple Examples
 
@@ -106,26 +108,26 @@ $ killall Finder
 
 ```bash
 Suitcase --name="Hidden Finder Settings" \
---control-title="Hidden Files & Folders:" \
-	--control-group-identifier="com.finder.hidden" \
-	--control-type="label" \
---control-title="unknown" \
-	--control-group-identifier="com.finder.hidden" \
-	--control-type="label" \
+	--control-title="Hidden Files & Folders:" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="label" \
+	--control-title="unknown" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="label" \
 	--control-identifier="com.label.hidden.state" \
---control-title="Refresh" \
-	--control-group-identifier="com.finder.hidden" \
-	--control-type="button" \
-	--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/Visible/g;s/0/Hidden/g" \
-	--control-action-destination="com.label.hidden.state" \
---control-title="Enable" \
-	--control-type="button" \
-	--control-group-identifier="com.finder.hidden.buttons" \
-	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
---control-title="Disable" \
-	--control-type="button" \
-	--control-group-identifier="com.finder.hidden.buttons" \
-	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+	--control-title="Refresh" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="button" \
+		--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/Visible/g;s/0/Hidden/g" \
+		--control-action-destination="com.label.hidden.state" \
+	--control-title="Enable" \
+		--control-type="button" \
+		--control-group-identifier="com.finder.hidden.buttons" \
+		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+	--control-title="Disable" \
+		--control-type="button" \
+		--control-group-identifier="com.finder.hidden.buttons" \
+		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
 ```
 
 ![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)
