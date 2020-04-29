@@ -65,11 +65,11 @@ A simple example consisting of one button that when clicked calls the `say` comm
 
 ```bash
 Suitcase --name="Demo App" --window-title="Hello World" \\
-	--window-width="200" --window-height="200" \
-	--control-type="label" --control-title="Give a face to every voice…" \
-	--control-type="button" \
-	--control-title="🗣 Say hello" \
-	--control-action="/usr/bin/say Hello World"
+  --window-width="200" --window-height="200" \
+  --control-type="label" --control-title="Give a face to every voice…" \
+  --control-type="button" \
+  --control-title="🗣 Say hello" \
+  --control-action="/usr/bin/say Hello World"
 ```
 
 [![Hello World](./Resources/hello-world.gif)](https://vimeo.com/413136057)
@@ -84,14 +84,14 @@ Menu items can also be assigned a keyboard shortcut. See the [full documentation
 
 ```bash
 Suitcase --name="Demo App" --window-title="Menus" \
-	--control-title="UUID" \
-		--control-type="label" --control-identifier="com.label.uuid" \
-	--menu-title="Action>Generate>UUID" \
-		--menu-action="/usr/bin/uuidgen" \
-			--menu-action-destination="com.label.uuid" \
-	--menu-title="Action>Copy UUID" \
-	--menu-shortcut="k" \
-	--menu-action="/usr/bin/printenv com.label.uuid | /usr/bin/pbcopy"
+  --control-title="UUID" \
+	--control-type="label" --control-identifier="com.label.uuid" \
+  --menu-title="Action>Generate>UUID" \
+	--menu-action="/usr/bin/uuidgen" \
+	--menu-action-destination="com.label.uuid" \
+  --menu-title="Action>Copy UUID" \
+  --menu-shortcut="k" \
+  --menu-action="/usr/bin/printenv com.label.uuid | /usr/bin/pbcopy"
 ```
 
 [![Menus](./Resources/menus.gif)](https://vimeo.com/413141354)
@@ -121,27 +121,27 @@ $ killall Finder
 ```
 
 ```bash
-Suitcase --name="Hidden Finder Settings" \
-	--control-title="Hidden Files & Folders:" \
-		--control-group-identifier="com.finder.hidden" \
-		--control-type="label" \
-	--control-title="unknown" \
-		--control-group-identifier="com.finder.hidden" \
-		--control-type="label" \
+$ Suitcase --name="Hidden Finder Settings" \
+  --control-title="Hidden Files & Folders:" \
+	--control-group-identifier="com.finder.hidden" \
+	--control-type="label" \
+  --control-title="unknown" \
+	--control-group-identifier="com.finder.hidden" \
+	--control-type="label" \
 	--control-identifier="com.label.hidden.state" \
-	--control-title="Refresh" \
-		--control-group-identifier="com.finder.hidden" \
-		--control-type="button" \
-		--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/Visible/g;s/0/Hidden/g" \
-		--control-action-destination="com.label.hidden.state" \
-	--control-title="Enable" \
-		--control-type="button" \
-		--control-group-identifier="com.finder.hidden.buttons" \
-		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
-	--control-title="Disable" \
-		--control-type="button" \
-		--control-group-identifier="com.finder.hidden.buttons" \
-		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+  --control-title="Refresh" \
+	--control-group-identifier="com.finder.hidden" \
+	--control-type="button" \
+	--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/Visible/g;s/0/Hidden/g" \
+	--control-action-destination="com.label.hidden.state" \
+  --control-title="Enable" \
+	--control-type="button" \
+	--control-group-identifier="com.finder.hidden.buttons" \
+	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+  --control-title="Disable" \
+	--control-type="button" \
+	--control-group-identifier="com.finder.hidden.buttons" \
+	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
 ```
 
 ![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)
