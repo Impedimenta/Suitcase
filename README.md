@@ -144,7 +144,7 @@ $ Suitcase --name="Hidden Finder Settings" \
 	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
 ```
 
-![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)
+[![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)](https://vimeo.com/413199912)
 
 *Click the .gif to see a skippable video.*
 
