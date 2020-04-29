@@ -244,6 +244,8 @@ A flexible command line tool for instantly deploying user interfaces for simple 
 
 ![Menus](./Resources/menus.gif)
 
+<iframe src="https://player.vimeo.com/video/413136057" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 	Suitcase --name="Demo App" --window-title="Menus" \
 		--control-title="UUID" \
 			--control-type="label" --control-identifier="com.label.uuid" \
