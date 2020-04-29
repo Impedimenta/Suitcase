@@ -8,7 +8,7 @@ Suitcase is a command line tool that can be *"programmed"* to display a [SwiftUI
 
 Think of it as similar to [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334) but for macOS and driven by the command line.
 
-### First Class macOS Citizen 
+### First Class Mac Citizen 
 
 Because of its SwiftUI underpinnings Suitcase supports things like [Dark Mode](https://support.apple.com/en-gb/HT208976) out of the box. 
 
@@ -64,7 +64,7 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 A simple example consisting of one button that when clicked calls the `say` command. 
 
 ```bash
-Suitcase --name="Demo App" --window-title="Hello World" \\
+$ Suitcase --name="Demo App" --window-title="Hello World" \\
   --window-width="200" --window-height="200" \
   --control-type="label" --control-title="Give a face to every voice…" \
   --control-type="button" \
@@ -83,7 +83,7 @@ This example shows how to create menus and sub-menus. Actions can be attached to
 Menu items can also be assigned a keyboard shortcut. See the [full documentation](./Basic.md) for more details. 
 
 ```bash
-Suitcase --name="Demo App" --window-title="Menus" \
+$ Suitcase --name="Demo App" --window-title="Menus" \
   --control-title="UUID" \
 	--control-type="label" --control-identifier="com.label.uuid" \
   --menu-title="Action>Generate>UUID" \
