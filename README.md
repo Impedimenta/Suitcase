@@ -244,9 +244,41 @@ A flexible command line tool for instantly deploying user interfaces for simple 
 
 ![Menus](./Resources/menus.gif)
 
+	Suitcase --name="Demo App" --window-title="Menus" \
+		--control-title="UUID" \
+			--control-type="label" --control-identifier="com.label.uuid" \
+		--menu-title="Action>Generate>UUID" \
+			--menu-action="/usr/bin/uuidgen" \
+				--menu-action-destination="com.label.uuid" \
+		--menu-title="Action>Copy UUID" \
+		--menu-shortcut="k" \
+		--menu-action="/usr/bin/printenv com.label.uuid | /usr/bin/pbcopy"
+
 #### Hidden Files & Folders
 
 ![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)
+
+	Suitcase --name="Hidden Finder Settings" \
+	--control-title="Hidden Files & Folders:" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="label" \
+	--control-title="unknown" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="label" \
+		--control-identifier="com.label.hidden.state" \
+	--control-title="Refresh" \
+		--control-group-identifier="com.finder.hidden" \
+		--control-type="button" \
+		--control-action="/usr/bin/defaults read com.apple.finder AppleShowAllFiles | /usr/bin/sed s/1/Visible/g;s/0/Hidden/g" \
+		--control-action-destination="com.label.hidden.state" \
+	--control-title="Enable" \
+		--control-type="button" \
+		--control-group-identifier="com.finder.hidden.buttons" \
+		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool TRUE & /usr/bin/killall Finder" \
+	--control-title="Disable" \
+		--control-type="button" \
+		--control-group-identifier="com.finder.hidden.buttons" \
+		--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
 
 ## Bug Reports & Feature Requests
 
