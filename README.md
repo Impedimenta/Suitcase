@@ -2,7 +2,7 @@
 
 *A flexible command line tool for instantly deploying user interfaces for simple commands and scripts.*
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Impedimenta/Suitcase?sort=semver)](https://github.com/Impedimenta/Suitcase/releases) ![Platform: macOS 10.15](https://img.shields.io/badge/platform-macOS%2010.15-blue)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Impedimenta/Suitcase?sort=semver)](https://github.com/Impedimenta/Suitcase/releases) ![Platform: macOS 10.15](https://img.shields.io/badge/platform-macOS%2010.15-blue) ![Twitter Follow](https://img.shields.io/twitter/follow/SuitcaseCLI) ![Twitter Follow](https://img.shields.io/twitter/follow/rjstelling)
 
 Suitcase is a command line tool that can be *"programmed"* to display a [SwiftUI](https://developer.apple.com/xcode/swiftui/) interface that can trigger commands and scripts. 
 
@@ -154,6 +154,7 @@ Please [create an issue](https://github.com/Impedimenta/Suitcase/issues).
 
 ## Contact
 
+Releases and News ([@SuitcaseCLI](https://twitter.com/SuitcaseCLI))
 Richard Stelling ([@rjstelling](https://twitter.com/rjstelling))
 
 ## Thanks to
