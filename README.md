@@ -64,7 +64,7 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 A simple example consisting of one button that when clicked calls the `say` command. 
 
 ```bash
-$ Suitcase --name="Demo App" --window-title="Hello World" \\
+$ Suitcase --name="Demo App" --window-title="Hello World" \
   --window-width="200" --window-height="200" \
   --control-type="label" --control-title="Give a face to every voice…" \
   --control-type="button" \
