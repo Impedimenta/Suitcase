@@ -63,6 +63,8 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 
 A simple example consisting of one button that when clicked calls the `say` command. 
 
+<details><summary><b>📝 Code</b></summary>
+
 ```bash
 $ Suitcase --name="Demo App" --window-title="Hello World" \
   --window-width="200" --window-height="200" \
@@ -71,7 +73,8 @@ $ Suitcase --name="Demo App" --window-title="Hello World" \
   --control-title="🗣 Say hello" \
   --control-action="/usr/bin/say Hello World"
 ```
-
+</details>
+	
 [![Hello World](./Resources/hello-world.gif)](https://vimeo.com/413136057)
 
 *Click the .gif to see a skippable video.*
@@ -82,6 +85,8 @@ This example shows how to create menus and sub-menus. Actions can be attached to
 
 Menu items can also be assigned a keyboard shortcut. See the [full documentation](./Basic.md) for more details. 
 
+<details><summary><b>📝 Code</b></summary>
+	
 ```bash
 $ Suitcase --name="Demo App" --window-title="Menus" \
   --control-title="UUID" \
@@ -93,6 +98,7 @@ $ Suitcase --name="Demo App" --window-title="Menus" \
   --menu-shortcut="k" \
   --menu-action="/usr/bin/printenv com.label.uuid | /usr/bin/pbcopy"
 ```
+</details>
 
 [![Menus](./Resources/menus.gif)](https://vimeo.com/413141354)
 
@@ -102,24 +108,8 @@ $ Suitcase --name="Demo App" --window-title="Menus" \
 
 This is a more involved example that uses `defaults` to read the macOS user defaults system and use `sed` to set a state `label`.
 
-This is how the command would be run in Terminal.
-
-```bash
-$ defaults read com.apple.finder AppleShowAllFiles | sed 's/1/Visible/g;s/0/Hidden/g'
-```
-
-The button uses `&` to run two commands, one to write to the user defaults and the second to relaunch the Finder:
-
-```bash
-$ defaults write com.apple.finder AppleShowAllFiles -bool TRUE
-```
-
-Kill the Finder and relaunch:
-
-```bash
-$ killall Finder
-```
-
+<details><summary><b>📝 Code</b></summary>
+	
 ```bash
 $ Suitcase --name="Hidden Finder Settings" \
   --control-title="Hidden Files & Folders:" \
@@ -142,6 +132,25 @@ $ Suitcase --name="Hidden Finder Settings" \
 	--control-type="button" \
 	--control-group-identifier="com.finder.hidden.buttons" \
 	--control-action="/usr/bin/defaults write com.apple.finder AppleShowAllFiles -bool FALSE & /usr/bin/killall Finder"
+```
+</details>
+
+This is how the command would be run in Terminal.
+
+```bash
+$ defaults read com.apple.finder AppleShowAllFiles | sed 's/1/Visible/g;s/0/Hidden/g'
+```
+
+The button uses `&` to run two commands, one to write to the user defaults and the second to relaunch the Finder:
+
+```bash
+$ defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+```
+
+Kill the Finder and relaunch:
+
+```bash
+$ killall Finder
 ```
 
 [![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)](https://vimeo.com/413199912)
