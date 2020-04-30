@@ -178,7 +178,7 @@ $ killall Finder
 
 ## Suitcase
 
-## Export as a `.command`
+### Export as a `.command`
 
 Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch the Suitcase or share the file (it's just plain text).
 
