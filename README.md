@@ -47,13 +47,7 @@ A `utility` Suitcase process does not have a Dock icon or main menu. It consists
 
 See the [full documentation](./Utility.md).
 
-### Export as a `.command`
-
-Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch the Suitcase or share the file (it's just plain text).
-
-![Export Command](./Resources/export-screenshot.png)
-
-### Simple Examples
+### Examples
 
 These examples are very basic but should give you a good idea of how you can use Suitcase. If you have any questions please [create an issue](https://github.com/Impedimenta/Suitcase/issues). 
 
@@ -181,6 +175,14 @@ Kill the Finder and relaunch:
 ```bash
 $ killall Finder
 ```
+
+## Suitcase
+
+## Export as a `.command`
+
+Any Suitcase command can be exported as a self running `.command` file. You can double click this file to launch the Suitcase or share the file (it's just plain text).
+
+![Export Command](./Resources/export-screenshot.png)
 
 ## Bug Reports & Feature Requests
 
