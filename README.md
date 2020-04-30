@@ -61,7 +61,9 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 
 #### Hello World
 
-A simple example consisting of one button that when clicked calls the `say` command. 
+[![Hello World](./Resources/Hello-World-Example.png)](https://vimeo.com/413136057)
+
+A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action.](https://vimeo.com/413136057)
 
 <details><summary><b>📝 Code</b></summary>
 
@@ -75,9 +77,7 @@ $ Suitcase --name="Demo App" --window-title="Hello World" \
 ```
 </details>
 	
-[![Hello World](./Resources/hello-world.gif)](https://vimeo.com/413136057)
 
-*Click the .gif to see a skippable video.*
 
 #### Menus
 
