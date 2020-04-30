@@ -61,7 +61,9 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 
 #### Hello World
 
-A simple example consisting of one button that when clicked calls the `say` command. 
+[![Hello World](./Resources/Hello-World-Example.png)](https://vimeo.com/413136057)
+
+A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action.](https://vimeo.com/413136057)
 
 <details><summary><b>📝 Code</b></summary>
 
@@ -75,13 +77,42 @@ $ Suitcase --name="Demo App" --window-title="Hello World" \
 ```
 </details>
 	
-[![Hello World](./Resources/hello-world.gif)](https://vimeo.com/413136057)
+#### War Games
 
-*Click the .gif to see a skippable video.*
+![War Games](./Resources/War-Games-Example.png)
+
+A more advanced example using buttons and passing parameters to the `say` command.
+
+<details><summary><b>📝 Code</b></summary>
+
+```bash
+$ Suitcase --name="War Games" \
+ --control-title="Shall we play a game?" \
+	--control-type="text-field" \
+	--control-identifier="say.textfield" \
+  --control-title="Daniel" \
+	--control-type="button" \
+	--control-group-identifier="g.btns" \
+	--control-action="/usr/bin/say" \
+	--control-action-parameter="-v,Daniel,say.textfield" \
+  --control-title="Samantha" \
+	--control-type="button" \
+	--control-group-identifier="g.btns" \
+	--control-action="/usr/bin/say" \
+	--control-action-parameter="-v,Samantha,say.textfield" \
+  --control-title="Veena" \
+	--control-type="button" \
+	--control-group-identifier="g.btns" \
+	--control-action="/usr/bin/say" \
+	--control-action-parameter="-v,Veena,say.textfield"
+```
+</details>
 
 #### Menus
 
-This example shows how to create menus and sub-menus. Actions can be attached to any menu item the same way as `button`s.
+[![Menus](./Resources/Menus-Example.png)](https://vimeo.com/413141354)
+
+This example shows how to create menus and sub-menus. Actions can be attached to any menu item the same way as `button`s. [Watch the video of this example in action.](https://vimeo.com/413141354)
 
 Menu items can also be assigned a keyboard shortcut. See the [full documentation](./Basic.md) for more details. 
 
@@ -100,13 +131,11 @@ $ Suitcase --name="Demo App" --window-title="Menus" \
 ```
 </details>
 
-[![Menus](./Resources/menus.gif)](https://vimeo.com/413141354)
-
-*Click the .gif to see a skippable video.*
-
 #### Hidden Files & Folders
 
-This is a more involved example that uses `defaults` to read the macOS user defaults system and use `sed` to set a state `label`.
+[![Hidden Files & Folders](./Resources/Hide-Example.png)](https://vimeo.com/413199912)
+
+This is a more involved example that uses `defaults` to read the macOS user defaults system and use `sed` to set a state `label`. [Watch the video of this example in action.](https://vimeo.com/413199912)
 
 <details><summary><b>📝 Code</b></summary>
 	
@@ -152,10 +181,6 @@ Kill the Finder and relaunch:
 ```bash
 $ killall Finder
 ```
-
-[![Hidden Files & Folders](./Resources/hidden-files-abridged.gif)](https://vimeo.com/413199912)
-
-*Click the .gif to see a skippable video.*
 
 ## Bug Reports & Feature Requests
 
