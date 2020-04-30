@@ -31,9 +31,9 @@ Its power and flexibility come form the tried and trusted UNIX command line. Any
 
 	SUBCOMMANDS:
 	  basic                   Launch a basic Suitcase process, that has a main menu
-							  and an icon in the Dock when running.
+				  and an icon in the Dock when running.
 	  utility                 Launch a utility Suitcase process, without a Dock
-							  icon or main menu.
+				  icon or main menu.
 
 #### Suitcase `basic`
 
