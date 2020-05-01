@@ -59,7 +59,7 @@ If you create an example you'd like to share [open a PR at the Bazaar](https://g
 
 [![Hello World](./Resources/Hello-World-Example.png)](https://vimeo.com/413136057)
 
-A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action.](https://vimeo.com/413136057). See the [detailed Say example](https://github.com/Impedimenta/Suitcase-Bazaar/blob/master/Examples/Say.md) at the Suitcase Bazaar.
+A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action](https://vimeo.com/413136057), there is a [detailed `say` example](https://github.com/Impedimenta/Suitcase-Bazaar/blob/master/Examples/Say.md) at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
 
 <details><summary><b>📝 Code</b></summary>
 
