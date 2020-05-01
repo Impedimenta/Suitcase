@@ -12,7 +12,7 @@ It's similar to [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334)
 
 ### First Class Mac Citizen 
 
-Because of its SwiftUI underpinnings Suitcase supports things like [Dark Mode](https://support.apple.com/en-gb/HT208976) out of the box. 
+Because of its [SwiftUI](https://developer.apple.com/xcode/swiftui/) underpinnings Suitcase is a first class Mac citizen. With out of the box support for, [Dark Mode](https://support.apple.com/en-gb/HT208976), [Menubars](https://developer.apple.com/design/human-interface-guidelines/macos/menus/menu-bar-menus/) and [Drag and Drop](https://developer.apple.com/design/human-interface-guidelines/macos/user-interaction/drag-and-drop/). 
 
 ### Powerful 
 
