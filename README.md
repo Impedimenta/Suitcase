@@ -57,7 +57,7 @@ These examples are very basic but should give you a good idea of how you can use
 
 [![Hello World](./Resources/Hello-World-Example.png)](https://vimeo.com/413136057)
 
-A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action](https://vimeo.com/413136057), there is a [detailed `say` example](https://github.com/Impedimenta/Suitcase-Bazaar/blob/master/Examples/Say.md) at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
+A simple example consisting of one button that when clicked calls the `say` command. [Watch the video of this example in action](https://vimeo.com/413136057), there is a [detailed `say` example](https://impedimenta.github.io/Suitcase-Bazaar/Examples/Say.html) at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
 
 <details><summary><b>📝 Code</b></summary>
 
@@ -75,7 +75,7 @@ $ Suitcase --name="Demo App" --window-title="Hello World" \
 
 ![War Games](./Resources/War-Games-Example.png)
 
-A more advanced example using buttons and passing parameters to the `say` command.
+A more advanced example using buttons and passing parameters to the `say` command. A [detailed explination of War Games](https://impedimenta.github.io/Suitcase-Bazaar/Examples/WarGames.html) can be found at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
 
 <details><summary><b>📝 Code</b></summary>
 
