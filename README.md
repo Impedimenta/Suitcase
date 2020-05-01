@@ -51,9 +51,7 @@ See the [full documentation](./Utility.md).
 
 ### Examples
 
-These examples are very basic but should give you a good idea of how you can use Suitcase. If you have any questions please [create an issue](https://github.com/Impedimenta/Suitcase/issues). 
-
-If you create an example you'd like to share [open a PR at the Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar).
+These examples are very basic but should give you a good idea of how you can use Suitcase. More details examples can be found at the [Bazaar](https://impedimenta.github.io/Suitcase-Bazaar/Examples/). If you have any questions please [create an issue](https://github.com/Impedimenta/Suitcase/issues). If you create a command and you'd like to share it, [open a PR at the Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar).
 
 #### Hello World
 
