@@ -8,6 +8,8 @@ Suitcase is a command line tool that can be *"programmed"* to display a [SwiftUI
 
 It's similar to [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334), but for macOS and driven by the command line.
 
+![Suitcase Demo Reel](./Resources/Hero.gif)
+
 ### First Class Mac Citizen 
 
 Because of its SwiftUI underpinnings Suitcase supports things like [Dark Mode](https://support.apple.com/en-gb/HT208976) out of the box. 
