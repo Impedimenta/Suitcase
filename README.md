@@ -75,7 +75,7 @@ $ Suitcase --name="Demo App" --window-title="Hello World" \
 
 ![War Games](./Resources/War-Games-Example.png)
 
-A more advanced example using buttons and passing parameters to the `say` command. A [detailed explination of War Games](https://impedimenta.github.io/Suitcase-Bazaar/Examples/WarGames.html) can be found at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
+A more advanced example using buttons and passing parameters to the `say` command. A [detailed explanation of War Games](https://impedimenta.github.io/Suitcase-Bazaar/Examples/WarGames.html) can be found at the [Suitcase Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar/).
 
 <details><summary><b>📝 Code</b></summary>
 
