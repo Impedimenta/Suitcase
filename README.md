@@ -6,6 +6,8 @@
 
 Suitcase is a command line tool that can be *"programmed"* to display a [SwiftUI](https://developer.apple.com/xcode/swiftui/) interface that can trigger commands and scripts. 
 
+[🧳 Suitcase Direct Download](https://github.com/Impedimenta/Suitcase/releases/latest/download/Suitcase.dmg)
+
 It's similar to [Shortcuts](https://apps.apple.com/us/app/shortcuts/id915249334), but for macOS and driven by the command line.
 
 ![Suitcase Demo Reel](./Resources/Hero.gif)
