@@ -24,7 +24,7 @@ Its power and flexibility come form the tried and trusted UNIX command line. Any
 
 - [@SuitcaseCLI](https://twitter.com/SuitcaseCLI) — Regular posts about updates and examples
 - [@ImpedimentaCode](https://twitter.com/ImpedimentaCode) — Infrequent posts about other projects and tools
-- [The Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar) — Blog posts, examples and documentation 
+- [The Bazaar](https://impedimenta.github.io/Suitcase-Bazaar) — Blog posts, examples and documentation 
 - [@rjstelling](https://twitter.com/rjstelling) — Frequent, irrelevant mostly technology and politics, open DMs
 
 ## Command-Line Utility
