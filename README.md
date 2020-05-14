@@ -20,6 +20,13 @@ Because of its [SwiftUI](https://developer.apple.com/xcode/swiftui/) underpinnin
 
 Its power and flexibility come form the tried and trusted UNIX command line. Anything you can do in Terminal you can do in Suitcase, but with a UI and export the command as a `.command` file, to check in with a project or [share with the world](https://github.com/Impedimenta/Suitcase-Bazaar).
 
+## Information
+
+- [@SuitcaseCLI](https://twitter.com/SuitcaseCLI) — Regular posts about updates and examples
+- [@ImpedimentaCode](https://twitter.com/ImpedimentaCode) — Infrequent posts about other projects and tools
+- [The Bazaar](https://github.com/Impedimenta/Suitcase-Bazaar) — Blog posts, examples and documentation 
+- [@rjstelling](https://twitter.com/rjstelling) — Frequent, irrelevant mostly technology and politics, open DMs
+
 ## Command-Line Utility
 
 ### Usage
